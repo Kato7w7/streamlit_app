@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 from streamlit_option_menu import option_menu
 
-df = pd.read_excel(r'C:\Users\camil\Desktop\Base_de_datos\OPENDATA_DS_01_AFILIADOS.xlsx',header=0)
+df = pd.read_excel(r'OPENDATA_DS_01_AFILIADOS.xlsx',header=0)
 page_img="""
 <style>
 [data-testid="stAppViewContainer"]{
